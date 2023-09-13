@@ -1,0 +1,188 @@
+{
+    "sceneObjects": [
+        {
+            "objectName": "Ground",
+            "objectType": "Cube",
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 20.0,
+                    "y": 1.0,
+                    "z": 20.0
+                }
+            },
+            "colliderType": {
+                "colliderType": "Collider"
+            },
+            "renderColor": {
+                "r": 0.5,
+                "g": 0.5,
+                "b": 0.5,
+                "a": 1.0
+            },
+            "components": [
+                {
+                    "componentName": "ExampleComponentGround",
+                    "isEnabled": true
+                }
+            ]
+        },
+        {
+            "objectName": "Wall1",
+            "objectType": "Cube",
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 2.0,
+                    "z": 10.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 20.0,
+                    "y": 4.0,
+                    "z": 0.10000000149011612
+                }
+            },
+            "colliderType": {
+                "colliderType": "Collider"
+            },
+            "renderColor": {
+                "r": 0.0,
+                "g": 1.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "components": [
+                {
+                    "componentName": "ExampleComponentWall1",
+                    "isEnabled": false
+                },
+                {
+                    "componentName": "ExampleComponentWall2",
+                    "isEnabled": true
+                }
+            ]
+        },
+        {
+            "objectName": "Wall2",
+            "objectType": "Cube",
+            "transform": {
+                "position": {
+                    "x": -10.0,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 0.10000000149011612,
+                    "y": 4.0,
+                    "z": 20.0
+                }
+            },
+            "colliderType": {
+                "colliderType": "Trigger"
+            },
+            "renderColor": {
+                "r": 0.0,
+                "g": 1.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "components": []
+        },
+        {
+            "objectName": "Player",
+            "objectType": "Capsule",
+            "transform": {
+                "position": {
+                    "x": 0.0,
+                    "y": 1.4500000476837159,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                }
+            },
+            "colliderType": {
+                "colliderType": "Collider"
+            },
+            "renderColor": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "components": [
+                {
+                    "componentName": "ExampleComponentPlayer",
+                    "isEnabled": false
+                }
+            ]
+        },
+        {
+            "objectName": "Enemy",
+            "objectType": "Prefab",
+            "transform": {
+                "position": {
+                    "x": -5.0,
+                    "y": 1.4500000476837159,
+                    "z": -2.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 2.0,
+                    "y": 2.0,
+                    "z": 2.0
+                }
+            },
+            "colliderType": {
+                "colliderType": "Collider"
+            },
+            "renderColor": {
+                "r": 1.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 1.0
+            },
+            "components": [
+                {
+                    "componentName": "ExampleComponentEnemy",
+                    "isEnabled": false
+                }
+            ]
+        }
+    ]
+}
